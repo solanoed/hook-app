@@ -1,12 +1,10 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import { FormWithCustomHook } from './02-useEffect/FormWithCustomHook'
-import { SimpleForm } from './02-useEffect/SimpleForm'
-import { MultipleCustomHooks } from './03-Examples/MultipleCustomHooks'
+import { CallbackHook } from './06-Memos/CallbackHook'
+import { MemoHook } from './06-Memos/MemoHook'
+import { Padre } from './07-tarea-memo/Padre'
 import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-    <MultipleCustomHooks />
-  // <React.StrictMode>
-  // </React.StrictMode>
+    <Padre/>
 )
